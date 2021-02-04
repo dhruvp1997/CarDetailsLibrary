@@ -1,12 +1,34 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Channels;
 
 namespace CarDetailsLibrary
 {
     class Program
     {
+        private class Car
+        {
+            public Car(string companyName, string modelName, string engine, int topSpeed, DateTime yearOfLaunch,
+                double approxPrice)
+            {
+                CompanyName = companyName;
+                ModelName = modelName;
+                Engine = engine;
+                TopSpeed = topSpeed;
+                YearOfLaunch = yearOfLaunch;
+                ApproxPrice = approxPrice;
+            }
+            public string CompanyName { get; set; }
+            public string ModelName { get; set; }
+            public string Engine { get; set; }
+            public int TopSpeed { get; set; }
+            public DateTime YearOfLaunch { get; set; }
+            public Double ApproxPrice { get; set; }
+
+        }
         static void Main(string[] args)
         {
+            var cars = new List<Car>();
             Console.Write("\n\n\n\tCar Details Library");
             Console.Write("\n\n\tAn application to see the car details. There are six columns available: company name, model name, " +
                               "\n\tengine, top speed, year of launch, and approx price. One can add new car in this library by " +
@@ -29,11 +51,18 @@ namespace CarDetailsLibrary
                     Console.Clear();
                     Console.Write("\n\n\n\tAdd a new car details:-");
                     Console.Write("\n\n\tCompany name: ");
+                    var companyName = Console.ReadLine();
                     Console.Write("\n\tModel name: ");
+                    var modelName = Console.ReadLine();
                     Console.Write("\n\tEngine: ");
+                    var engine = Console.ReadLine();
                     Console.Write("\n\tTop speed: ");
+                    var topSpeed = Convert.ToInt32(Console.ReadLine());
                     Console.Write("\n\tYear of launch: ");
+                    var yearOfLaunch = Convert.ToDateTime(Console.ReadLine());
                     Console.Write("\n\tApprox price: ");
+                    var approxPrice = Convert.ToDouble(Console.ReadLine());
+                    cars.Add(new Car(companyName, modelName, engine, topSpeed, yearOfLaunch, approxPrice));
                 }
                     break;
                 case 2:
