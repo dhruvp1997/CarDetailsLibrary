@@ -56,6 +56,7 @@ namespace CarDetailsLibrary
                     {
                         case 1:
                         {
+                            // This case will store the data into objects.
                             Console.Clear();
                             Console.Write("\n\n\n\tAdd a new car details:-");
                             Console.Write("\n\n\tCompany name: ");
@@ -71,7 +72,7 @@ namespace CarDetailsLibrary
                             Console.Write("\tApprox price: ");
                             var approxPrice = Convert.ToDouble(Console.ReadLine());
                             cars.Add(new Car(companyName, modelName, engine, topSpeed, yearOfLaunch, approxPrice));
-                            Console.WriteLine("\n\tPress any key to continue...");
+                            Console.WriteLine("\n\n\tPress any key to continue...");
                             Console.ReadLine();
                         }
                             break;
@@ -79,7 +80,7 @@ namespace CarDetailsLibrary
                         {
                             Console.Clear();
                             Console.Write("\n\n\n\tCar details available in library:-");
-                            
+                            // It will show all the details available in objects.
                             if (cars.Count > 0)
                             {
                                 foreach (var car in cars)
@@ -98,12 +99,13 @@ namespace CarDetailsLibrary
                                 Console.Write("\n\tSorry!! you did not enter any car yet.");
                             }
 
-                            Console.Write("\n\n\tPress any key to continue...");
+                            Console.Write("\n\n\n\tPress any key to continue...");
                             Console.ReadLine();
                         }
                             break;
                         case 3:
                         {
+                            //This case will exit the application.
                             recurrence = 0;
                         }
                             break;
