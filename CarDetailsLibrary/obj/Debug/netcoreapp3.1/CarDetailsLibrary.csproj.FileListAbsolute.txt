@@ -11,3 +11,16 @@ D:\Cambrian College IOT\Semester_2\IOT1026\Repositories\CarDetailsLibrary\CarDet
 D:\Cambrian College IOT\Semester_2\IOT1026\Repositories\CarDetailsLibrary\CarDetailsLibrary\obj\Debug\netcoreapp3.1\CarDetailsLibrary.dll
 D:\Cambrian College IOT\Semester_2\IOT1026\Repositories\CarDetailsLibrary\CarDetailsLibrary\obj\Debug\netcoreapp3.1\CarDetailsLibrary.pdb
 D:\Cambrian College IOT\Semester_2\IOT1026\Repositories\CarDetailsLibrary\CarDetailsLibrary\obj\Debug\netcoreapp3.1\CarDetailsLibrary.genruntimeconfig.cache
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\bin\Debug\netcoreapp3.1\CarDetailsLibrary.exe
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\bin\Debug\netcoreapp3.1\CarDetailsLibrary.deps.json
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\bin\Debug\netcoreapp3.1\CarDetailsLibrary.runtimeconfig.json
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\bin\Debug\netcoreapp3.1\CarDetailsLibrary.runtimeconfig.dev.json
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\bin\Debug\netcoreapp3.1\CarDetailsLibrary.dll
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\bin\Debug\netcoreapp3.1\CarDetailsLibrary.pdb
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\obj\Debug\netcoreapp3.1\CarDetailsLibrary.csprojAssemblyReference.cache
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\obj\Debug\netcoreapp3.1\CarDetailsLibrary.AssemblyInfoInputs.cache
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\obj\Debug\netcoreapp3.1\CarDetailsLibrary.AssemblyInfo.cs
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\obj\Debug\netcoreapp3.1\CarDetailsLibrary.csproj.CoreCompileInputs.cache
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\obj\Debug\netcoreapp3.1\CarDetailsLibrary.dll
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\obj\Debug\netcoreapp3.1\CarDetailsLibrary.pdb
+D:\Cambrian College IOT\Semester_2\IOT1026\CarDetailsLibrary\CarDetailsLibrary\obj\Debug\netcoreapp3.1\CarDetailsLibrary.genruntimeconfig.cache
